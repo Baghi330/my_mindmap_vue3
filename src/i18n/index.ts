@@ -2,15 +2,16 @@ import i18next from 'i18next'
 import zh from './zh'
 import en from './en'
 import ptBR from './ptBR'
+import fa from './fa'  // اضافه کردن این خط
 
 i18next.init({
   fallbackLng: 'zh',
-  lng: 'zh', // if you're using a language detector, do not define the lng option
-  // debug: true,
+  lng: 'zh',
   resources: {
     zh,
     en,
-    ptBR
+    ptBR,
+    fa  // اضافه کردن این خط
   }
 })
 
