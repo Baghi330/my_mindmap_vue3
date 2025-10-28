@@ -28,6 +28,7 @@
         <label for="language-select">Language</label>
         <select id="language-select" v-model="locale">
           <option value="zh">简体中文</option>
+          <option value="fa">فارسی</option>
           <option value="en">English</option>
           <option value="ptBR">Brazilian Portuguese</option>
         </select>

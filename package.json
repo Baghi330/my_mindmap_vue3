@@ -1,21 +1,21 @@
 {
-  "name": "vue3-mindmap",
+  "name": "@baghi330/mindmap",
   "description": "Mindmap component for Vue3",
   "author": "伍鑫",
   "license": "MIT",
   "files": [
     "dist"
   ],
-  "main": "./dist/vue3-mindmap.umd.js",
-  "module": "./dist/vue3-mindmap.es.js",
+  "main": "./dist/mindmap/mindmap.umd.js",
+  "module": "./dist/mindmap/mindmap.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue3-mindmap.es.js",
-      "require": "./dist/vue3-mindmap.umd.js"
+      "import": "./dist/mindmap.es.js",
+      "require": "./dist/mindmap.umd.js"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./style.css": "./dist/style.css"
   },
-  "version": "0.5.12",
+  "version": "0.5.15",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -34,6 +34,7 @@
     "d3-shape": "^2.1.0",
     "d3-transition": "^2.0.0",
     "d3-zoom": "^2.0.0",
+    "esbuild": "^0.25.11",
     "html2canvas": "^1.0.0-rc.7",
     "i18next": "^21.6.6",
     "lodash.clonedeep": "^4.5.0",
@@ -71,9 +72,9 @@
     "vite": "^2.3.0"
   },
   "bugs": {
-    "url": "https://github.com/hellowuxin/vue3-mindmap/issues"
+    "url": "https://https://github.com/Baghi330/my_mindmap/issues"
   },
-  "homepage": "https://github.com/hellowuxin/vue3-mindmap#readme",
+  "homepage": "https://https://github.com/Baghi330/my_mindmap#readme",
   "keywords": [
     "mindmap",
     "vue",
@@ -81,6 +82,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hellowuxin/vue3-mindmap.git"
+    "url": "git+https://https://github.com/Baghi330/my_mindmap.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@baghi330"
   }
 }
