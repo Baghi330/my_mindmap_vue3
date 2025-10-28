@@ -50,7 +50,6 @@ import learn from './learn.json'
 import { defineComponent, reactive, ref } from 'vue'
 import Mindmap from './components/Mindmap'
 import { Locale } from './components/Mindmap/interface'
-
 type checkbox = { [key: string]: { value: boolean, disabled?: boolean } }
 
 export default defineComponent({
@@ -91,6 +90,7 @@ export default defineComponent({
     }
   }
 })
+
 </script>
 
 <style lang="scss">
