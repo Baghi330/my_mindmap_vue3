@@ -24,5 +24,10 @@ export default defineConfig({
         return `${file}_${name}_${hash}`
       }
     }
-  }
+  },
+  server: {
+    port: 3002,  // اضافه کردن این خط
+    host: true   // اختیاری: برای دسترسی از دستگاه‌های دیگر در شبکه
+  },
+
 })
