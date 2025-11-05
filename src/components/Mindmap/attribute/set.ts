@@ -39,7 +39,7 @@ export const attrText = (text: d3.Selection<SVGTextElement, Mdata, SVGGElement, 
 }
 
 export const attrTspan = (tspan: d3.Selection<SVGTSpanElement, TspanData, SVGTextElement, Mdata>): void => {
-  tspan.attr('alignment-baseline', 'text-before-edge')
+  tspan.attr('dominant-baseline', 'text-before-edge')
     .text((d) => d.name || ' ')
     .attr('x', 0)
     .attr('dy', (d, i) => i ? d.height : 0)
